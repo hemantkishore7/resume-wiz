@@ -1,14 +1,11 @@
-
-
+import HomePage from "./pages/HomePage/HomePage";
 
 function App() {
-  
-
   return (
-    <>
-     <h1>Resume maker</h1>
-    </>
-  )
+    <div className="app">
+      <HomePage />
+    </div>
+  );
 }
 
-export default App
+export default App;
