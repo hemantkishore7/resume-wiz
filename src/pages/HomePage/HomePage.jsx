@@ -1,4 +1,4 @@
-import Navbar from "../../components/Navbar";
+import { Navbar, Hero } from "../../components";
 import style from "../../style";
 
 function HomePage() {
@@ -7,6 +7,11 @@ function HomePage() {
       <div className={`${style.paddingX} ${style.flexCenter}`}>
         <div className={`${style.boxWidth}`}>
           <Navbar />
+        </div>
+      </div>
+      <div className={` ${style.flexStart} ${style.paddingX}`}>
+        <div className={`${style.boxWidth}`}>
+          <Hero />
         </div>
       </div>
     </div>
